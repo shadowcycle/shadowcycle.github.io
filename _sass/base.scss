@@ -1,0 +1,22 @@
+html{
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+#container{
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+
+}
+
+.page-content{
+  background-color: white;
+}

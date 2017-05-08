@@ -1,7 +1,13 @@
 ---
+# Only main Sass file needs frontmatter
 ---
 @charset "utf-8";
 
-html{
-  
-}
+$base-font-family: Georgia, Times, Times New Roman, serif;
+$base-font-size: 14px;
+$h1-font-size: $base-font-size * 2.5;
+$h2-font-size: $base-font-size * 2;
+
+@import
+        "base"
+;
