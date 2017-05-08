@@ -1,8 +1,9 @@
 html{
-
+  height: 100%;
 }
 
 body{
+  height: 100%;
   margin: 0;
   padding: 0;
   background-color: black;
@@ -12,11 +13,22 @@ body{
   margin: 0 auto;
   padding: 0;
   width: 80%;
+  min-height: 100%;
   font-family: $base-font-family;
   font-size: $base-font-size;
 
 }
 
 .page-content{
+  border-radius: 5px;
   background-color: white;
+  min-height: 60vh;
+  margin: 0;
+  padding: 0 1em;
+
+  h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: $h1-font-size;
+  }
 }
